@@ -6,6 +6,9 @@
 
 <style lang="scss">
 html {
-  @apply bg-black font-['Questrial'];
+  @apply bg-black font-['Questrial'] text-white;
+}
+section {
+  @apply w-screen h-screen;
 }
 </style>
