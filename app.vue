@@ -1,6 +1,7 @@
 <template>
   <div>
     <Landing />
+    <WhyChooseUs />
   </div>
 </template>
 
@@ -9,6 +10,6 @@ html {
   @apply bg-black font-['Questrial'] text-white;
 }
 section {
-  @apply w-screen h-screen;
+  @apply flex flex-col items-center justify-center w-screen min-h-screen p-6 overflow-hidden;
 }
 </style>

@@ -5,7 +5,7 @@
     <div class="circle-3"></div>
 
     <div class="landing-page__title">
-      <img src="/images/accelerate_logo.webp" />
+      <img src="/images/accelerate_logo.webp" alt="Accelerate Marketing Logo" width="48" height="49"/>
       <h1>Accelerate Marketing</h1>
     </div>
 
@@ -17,7 +17,7 @@
 
 <style lang="scss" scoped>
 .landing-page {
-  @apply relative flex flex-col items-center justify-center p-6 overflow-hidden sm:items-start md:pl-[15%];
+  @apply relative h-screen sm:items-start md:pl-[15%];
 
   &__title {
     @apply absolute flex items-center justify-center gap-2 text-2xl xs:text-3xl sm:text-5xl top-[15%];
@@ -55,7 +55,7 @@
   background: radial-gradient(circle, #f9a01b 0%, rgba(249, 160, 27, 0) 70%);
   top: calc(150vw * -0.25);
   left: calc(150vw * -0.25);
-  animation: moveUpDown1 8s ease-in-out infinite;
+  animation: moveUpDown1 6s ease-in-out infinite;
 
   @media (min-width: 431px) {
     top: calc(100vw * -0.25);
@@ -71,7 +71,7 @@
   background: radial-gradient(circle, #6abcff 0%, rgba(106, 188, 255, 0) 70%);
   bottom: calc(150vw * -0.1);
   right: calc(150vw * -0.25);
-  animation: moveUpDown2 8s ease-in-out infinite;
+  animation: moveUpDown2 6s ease-in-out infinite;
 
   @media (min-width: 431px) {
     bottom: calc(100vw * -0.1);
