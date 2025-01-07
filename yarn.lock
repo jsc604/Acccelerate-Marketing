@@ -592,14 +592,6 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@kgierke/nuxt-basic-auth@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@kgierke/nuxt-basic-auth/-/nuxt-basic-auth-1.7.0.tgz#b65102883d749e307d3e52fffcf6af5a747a136f"
-  integrity sha512-OT1XcUTDVgUd2d5eZbsvaLPrX17wKo9YkoCB0ViTQNDokRzgeOpKKG1v8qFep1RJAh23WMlP4fo/rRsyBM96Yg==
-  dependencies:
-    "@nuxt/kit" "^3.13.2"
-    defu "^6.1.4"
-
 "@koa/router@^12.0.1":
   version "12.0.2"
   resolved "https://registry.yarnpkg.com/@koa/router/-/router-12.0.2.tgz#286d51959ed611255faa944818a112e35567835a"

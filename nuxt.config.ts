@@ -2,26 +2,13 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
-  modules: [
-    "@nuxtjs/tailwindcss",
-    "@nuxtjs/google-fonts",
-    "@kgierke/nuxt-basic-auth",
-  ],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts"],
   googleFonts: {
     families: {
       Questrial: {
         wght: [400],
       },
     },
-  },
-  basicAuth: {
-    enabled: true,
-    users: [
-      {
-        username: "master",
-        password: "letmein",
-      },
-    ],
   },
   app: {
     head: {

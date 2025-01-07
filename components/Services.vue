@@ -76,7 +76,7 @@
   }
 
   &__service {
-    @apply space-y-2;
+    @apply self-start space-y-2;
     img,
     picture {
       @apply block w-12;

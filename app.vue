@@ -5,6 +5,7 @@
     <Services />
     <WhatsMakesUsDifferent />
     <HowWeWork />
+    <Contact />
   </div>
 </template>
 

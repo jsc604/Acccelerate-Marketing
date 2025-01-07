@@ -5,7 +5,12 @@
     <div class="circle-3"></div>
 
     <div class="landing-page__title">
-      <img src="/images/accelerate_logo.webp" alt="Accelerate Marketing Logo" width="48" height="49"/>
+      <img
+        src="/images/accelerate_logo.webp"
+        alt="Accelerate Marketing Logo"
+        width="48"
+        height="49"
+      />
       <h1>Accelerate Marketing</h1>
     </div>
 
@@ -29,6 +34,7 @@
 
   &__description {
     @apply text-4xl max-w-96 sm:max-w-3xl sm:text-6xl lg:text-7xl;
+    line-height: 1.25 !important;
   }
 }
 
