@@ -1,6 +1,6 @@
 <template>
   <section class="why-choose-us">
-    <div class="why-choose-us__description">
+    <border-box>
       <h1>Why Choose Us?</h1>
       <p>
         We don’t just create campaigns; we craft stories that inspire. We pair
@@ -9,8 +9,8 @@
         influencers, or seeking to amplify your reach, we have the expertise to
         make it happen.
       </p>
-    </div>
-    <img src="/images/tech_accessories.webp" alt="tech accessories"/>
+    </border-box>
+    <img src="/images/tech_accessories.webp" alt="tech accessories" />
   </section>
 </template>
 
@@ -29,7 +29,7 @@
   }
 
   h1 {
-    @apply text-2xl font-bold xs:text-3xl sm:text-5xl lg:text-6xl;
+    @apply text-3xl font-bold sm:text-5xl lg:text-6xl;
   }
 
   p {

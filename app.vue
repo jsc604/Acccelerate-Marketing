@@ -2,6 +2,8 @@
   <div>
     <Landing />
     <WhyChooseUs />
+    <Services />
+    <WhatsMakesUsDifferent />
   </div>
 </template>
 
