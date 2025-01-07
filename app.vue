@@ -4,6 +4,7 @@
     <WhyChooseUs />
     <Services />
     <WhatsMakesUsDifferent />
+    <HowWeWork />
   </div>
 </template>
 

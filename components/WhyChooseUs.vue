@@ -10,7 +10,11 @@
         make it happen.
       </p>
     </border-box>
-    <img src="/images/tech_accessories.webp" alt="tech accessories" />
+    <img
+      src="/images/tech_accessories.webp"
+      alt="tech accessories"
+      class="rounded-3xl"
+    />
   </section>
 </template>
 

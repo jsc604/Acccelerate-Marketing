@@ -71,7 +71,7 @@
   background: radial-gradient(circle, #6abcff 0%, rgba(106, 188, 255, 0) 70%);
   bottom: calc(150vw * -0.1);
   right: calc(150vw * -0.25);
-  animation: moveUpDown2 6s ease-in-out infinite;
+  animation: moveUpDown2 5s ease-in-out infinite;
 
   @media (min-width: 431px) {
     bottom: calc(100vw * -0.1);
