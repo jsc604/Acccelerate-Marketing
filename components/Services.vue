@@ -90,7 +90,7 @@
   }
 
   h1 {
-    @apply text-3xl font-bold sm:text-5xl lg:text-6xl lg:self-start;
+    @apply text-3xl font-bold sm:text-5xl lg:text-6xl lg:self-center;
   }
 }
 </style>

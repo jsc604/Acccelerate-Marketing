@@ -1,75 +1,33 @@
-# Nuxt Minimal Starter
+# Accelerate Marketing Website
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern, responsive marketing website built with cutting-edge technologies to showcase Accelerate Marketing's services and capabilities.
 
-## Setup
+## Features
+- Responsive design
+- Animated components
+- Contact form integration
+- Modern UI/UX
+- Performance optimized
 
-Make sure to install dependencies:
+## Tech Stack
+- Nuxt 3
+- Vue.js
+- Tailwind CSS
+- SASS/SCSS
 
+## Getting Started
+
+### Prerequisites
+- Node.js (v16+)
+- yarn
+
+### Installation
 ```bash
-# npm
-npm install
+# Clone the repository
+git clone [repository-url]
 
-# pnpm
-pnpm install
+# Install dependencies
+This project uses Yarn. Please use `yarn install` to install dependencies.
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
+# Start development server
 yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
