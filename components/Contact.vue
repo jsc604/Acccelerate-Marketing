@@ -7,23 +7,19 @@
       <div class="contact__cta">
         <h1>Let's Accelerate Your Growth</h1>
         <a
-          href="mailto:your-email@example.com?subject=Book%20a%20Call&body=I'm%20interested%20in%20booking%20a%20call%20to%20accelerate%20my%20growth."
+          href="mailto:hello@acceleratemarketing.io?subject=Book%20a%20Call&body=I'm%20interested%20in%20booking%20a%20call%20to%20accelerate%20my%20growth."
         >
           BOOK A CALL
         </a>
       </div>
-      <border-box class="lg:w-1/3 text-xl">
+      <border-box class="text-xl">
         <div class="self-start">
           <h2 class="text-3xl">Phone</h2>
-          <p>(123) 456 789</p>
+          <p>(778)-837-8779</p>
         </div>
         <div class="self-start">
           <h2 class="text-3xl">Email</h2>
-          <p>@accelerateMarketing</p>
-        </div>
-        <div class="self-start">
-          <h2 class="text-3xl">Social</h2>
-          <p>social-link.com</p>
+          <p>hello@acceleratemarketing.io</p>
         </div>
       </border-box>
     </div>

@@ -82,7 +82,7 @@
       @apply block w-12;
     }
     h2 {
-      @apply text-xl font-semibold underline xs:text-2xl sm:text-4xl lg:text-5xl;
+      @apply text-xl font-semibold underline xs:text-2xl sm:text-3xl lg:text-4xl;
     }
     p {
       @apply text-lg;

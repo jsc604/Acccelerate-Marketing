@@ -61,7 +61,7 @@
   }
 
   img {
-    @apply w-full max-w-xl lg:w-2/5 rounded-3xl;
+    @apply w-full max-w-xl lg:w-1/2 rounded-3xl;
   }
 }
 </style>
