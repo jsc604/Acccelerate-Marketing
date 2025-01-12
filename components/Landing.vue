@@ -11,7 +11,7 @@
         width="48"
         height="49"
       />
-      <h1>Accelerate Marketing</h1>
+      <h1 data-aos="fade-up">Accelerate Marketing</h1>
     </div>
 
     <h2 class="landing-page__description">

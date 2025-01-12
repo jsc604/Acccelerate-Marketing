@@ -2,11 +2,14 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts", "nuxt-aos"],
   googleFonts: {
     families: {
-      Questrial: {
+      Rubik: {
         wght: [400],
+      },
+      Orbitron: {
+        wght: [600],
       },
     },
   },

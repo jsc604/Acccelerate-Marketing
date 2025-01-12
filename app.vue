@@ -1,19 +1,28 @@
 <template>
   <div>
-    <Landing />
+    <Navbar />
+    <Cover />
+    <!-- <Landing />
     <WhyChooseUs />
     <Services />
     <WhatsMakesUsDifferent />
     <HowWeWork />
-    <Contact />
+    <Contact /> -->
   </div>
 </template>
 
 <style lang="scss">
 html {
-  @apply bg-black font-['Questrial'] text-white;
+  @apply bg-black font-['Rubik'] text-white text-lg;
+}
+h1,
+h2,
+h3,
+h4 {
+  @apply font-['Orbitron'];
 }
 section {
-  @apply flex flex-col items-center justify-center w-screen min-h-screen p-6 overflow-hidden;
+@apply container w-screen p-6 ;
+// #ff6f00
 }
 </style>
