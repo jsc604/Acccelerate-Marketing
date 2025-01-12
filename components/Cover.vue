@@ -1,7 +1,7 @@
 <template>
   <section class="cover">
     <div class="flex flex-col gap-12 items-start lg:w-1/2">
-      <h1>Where Digital Brands Transform and Thrive</h1>
+      <h1>Where Digital Brands Transform And Thrive</h1>
       <p>
         Accelerate Marketing specializes in driving innovation and growth in the
         ever growing digital landscape.

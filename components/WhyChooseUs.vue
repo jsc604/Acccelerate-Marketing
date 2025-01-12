@@ -23,7 +23,7 @@
 
 <style lang="scss" scoped>
 .why-choose-us {
-  @apply bg-[#ff6f00]/70;
+  @apply bg-[#ff6f00]/80;
   section {
     @apply container flex flex-col items-center justify-center gap-12 py-12 mx-auto lg:flex-row sm:py-24;
   }

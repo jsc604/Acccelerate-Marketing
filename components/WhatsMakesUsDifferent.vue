@@ -40,8 +40,8 @@ onMounted(() => {
   const setDelays = () => {
     if (window.innerWidth >= 1024) {
       trait1.value.setAttribute("data-aos-delay", "0");
-      trait2.value.setAttribute("data-aos-delay", "200");
-      trait3.value.setAttribute("data-aos-delay", "400");
+      trait2.value.setAttribute("data-aos-delay", "300");
+      trait3.value.setAttribute("data-aos-delay", "600");
     } else {
       trait1.value.removeAttribute("data-aos-delay");
       trait2.value.removeAttribute("data-aos-delay");

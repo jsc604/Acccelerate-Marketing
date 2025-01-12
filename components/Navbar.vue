@@ -99,7 +99,7 @@ const scrollToTop = () => {
 <style lang="scss" scoped>
 .navbar-wrapper {
   @apply fixed z-10 w-full bg-black/75;
-  box-shadow: 0 4px 8px 0 rgba(255, 111, 0, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(255, 111, 0, 0.6);
   backdrop-filter: blur(8px);
 }
 .navbar {
@@ -118,7 +118,7 @@ const scrollToTop = () => {
 
   &__mobile {
     @apply absolute left-0 z-50 w-full rounded-b-sm shadow-md top-20 bg-black/85;
-    box-shadow: 0 4px 8px 0 rgba(255, 111, 0, 0.4);
+    box-shadow: 0 4px 8px 0 rgba(255, 111, 0, 0.6);
   }
 
   &__mobile-menu {

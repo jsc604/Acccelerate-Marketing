@@ -1,13 +1,13 @@
 <template>
-  <div class="app-wrapper">
+  <div>
     <Navbar />
     <Cover />
     <Services />
     <WhyChooseUs />
     <WhatsMakesUsDifferent />
-    <!-- <Landing />
-    <HowWeWork />
-    <Contact /> -->
+    <Approach />
+    <FloatingCircle />
+    <!-- <Contact /> -->
   </div>
 </template>
 
