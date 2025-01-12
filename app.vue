@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class="app-wrapper">
     <Navbar />
     <Cover />
-    <!-- <Landing />
-    <WhyChooseUs />
     <Services />
+    <WhyChooseUs />
     <WhatsMakesUsDifferent />
+    <!-- <Landing />
     <HowWeWork />
     <Contact /> -->
   </div>
@@ -13,7 +13,8 @@
 
 <style lang="scss">
 html {
-  @apply bg-black font-['Rubik'] text-white text-lg;
+  @apply text-lg text-white bg-black;
+  font-family: "Rubik", sans-serif;
 }
 h1,
 h2,
@@ -22,7 +23,6 @@ h4 {
   @apply font-['Orbitron'];
 }
 section {
-@apply container w-screen p-6 ;
-// #ff6f00
+  @apply container w-screen p-6 mb-6 md:mb-12 lg:mb-32 xl:mb-36;
 }
 </style>

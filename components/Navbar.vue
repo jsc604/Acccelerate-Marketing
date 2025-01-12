@@ -100,6 +100,7 @@ const scrollToTop = () => {
 .navbar-wrapper {
   @apply fixed z-10 w-full bg-black/75;
   box-shadow: 0 4px 8px 0 rgba(255, 111, 0, 0.4);
+  backdrop-filter: blur(8px);
 }
 .navbar {
   @apply container relative flex items-center justify-between h-20 px-6 py-4 mx-auto text-lg;

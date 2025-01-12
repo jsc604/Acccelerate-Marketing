@@ -11,7 +11,7 @@
         <button>Contact</button>
       </div>
     </div>
-    <div class="zoom-container lg:self-baseline w-4/5 lg:w-1/2">
+    <div class="zoom-container lg:self-baseline w-full lg:w-1/2">
       <img
         src="/images/accelerate.webp"
         alt="accelerate marketing cover photo"
