@@ -15,11 +15,6 @@
         BOOK A CALL
       </a>
     </button>
-
-    <div data-aos="fade-up">
-      <h2>Phone</h2>
-      <p>(778)-837-8779</p>
-    </div>
     <div data-aos="fade-up">
       <h2>Email</h2>
       <p>hello@acceleratemarketing.io</p>
