@@ -131,11 +131,6 @@
     transform: translateX(-100px);
     transition: all 1s ease-out;
 
-    &.slide-in {
-      opacity: 1;
-      transform: translateX(0);
-    }
-
     &:nth-child(2) {
       transition-delay: 0.3s;
     }

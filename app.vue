@@ -6,8 +6,9 @@
     <WhyChooseUs />
     <WhatsMakesUsDifferent />
     <Approach />
+    <Contact />
+    <Footer />
     <FloatingCircle />
-    <!-- <Contact /> -->
   </div>
 </template>
 

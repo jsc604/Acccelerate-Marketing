@@ -13,13 +13,13 @@
 
       <ul class="navbar__desktop">
         <li>
-          <NuxtLink to="#">Services</NuxtLink>
+          <NuxtLink to="#services">Services</NuxtLink>
         </li>
         <li>
           <NuxtLink to="#">Our Work</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="#">Contact</NuxtLink>
+          <NuxtLink to="#contact">Contact</NuxtLink>
         </li>
       </ul>
 
@@ -94,6 +94,7 @@ const scrollToTop = () => {
     behavior: "smooth",
   });
 };
+
 </script>
 
 <style lang="scss" scoped>
