@@ -80,7 +80,7 @@
   .step-connector {
     @apply hidden lg:block;
     position: absolute;
-    top: 2rem;
+    top: 4rem;
     right: -6rem;
     width: 6rem;
     height: 3px;
