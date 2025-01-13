@@ -1,5 +1,5 @@
 <template>
-  <section class="services">
+  <section class="services" id="services">
     <h1 data-aos="fade-up">How We Can Help</h1>
     <div class="services__container">
       <div class="service" data-aos="zoom-in">

@@ -13,13 +13,17 @@
 
       <ul class="navbar__desktop">
         <li>
-          <NuxtLink to="#services">Services</NuxtLink>
+          <NuxtLink to="#services" @click.prevent="scrollToServices"
+            >Services</NuxtLink
+          >
         </li>
-        <li>
+        <!-- <li>
           <NuxtLink to="#">Our Work</NuxtLink>
-        </li>
+        </li> -->
         <li>
-          <NuxtLink to="#contact">Contact</NuxtLink>
+          <NuxtLink to="#contact" @click.prevent="scrollToContact"
+            >Contact</NuxtLink
+          >
         </li>
       </ul>
 
@@ -65,16 +69,14 @@
         <div v-if="menuOpen" class="navbar__mobile">
           <ul class="navbar__mobile-menu">
             <li>
-              <NuxtLink to="#">Home</NuxtLink>
+              <NuxtLink to="#services" @click.prevent="scrollToServices"
+                >Services</NuxtLink
+              >
             </li>
             <li>
-              <NuxtLink to="#">Services</NuxtLink>
-            </li>
-            <li>
-              <NuxtLink to="#">About</NuxtLink>
-            </li>
-            <li>
-              <NuxtLink to="#">Contact</NuxtLink>
+              <NuxtLink to="#" @click.prevent="scrollToContact"
+                >Contact</NuxtLink
+              >
             </li>
           </ul>
         </div>
@@ -94,7 +96,18 @@ const scrollToTop = () => {
     behavior: "smooth",
   });
 };
-
+const scrollToServices = () => {
+  window.scrollTo({
+    top: document.getElementById("services").offsetTop - 100,
+    behavior: "smooth",
+  });
+};
+const scrollToContact = () => {
+  window.scrollTo({
+    top: document.getElementById("contact").offsetTop - 100,
+    behavior: "smooth",
+  });
+};
 </script>
 
 <style lang="scss" scoped>

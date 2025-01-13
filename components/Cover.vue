@@ -7,8 +7,8 @@
         ever growing digital landscape.
       </p>
       <div class="space-y-6">
-        <button>Services</button>
-        <button>Contact</button>
+        <button @click="scrollToServices">Services</button>
+        <button @click="scrollToContact">Contact</button>
       </div>
     </div>
     <div class="zoom-container lg:self-baseline w-full lg:w-1/2">
@@ -23,6 +23,21 @@
     </div>
   </section>
 </template>
+
+<script setup>
+const scrollToServices = () => {
+  window.scrollTo({
+    top: document.getElementById("services").offsetTop - 100,
+    behavior: "smooth",
+  });
+};
+const scrollToContact = () => {
+  window.scrollTo({
+    top: document.getElementById("contact").offsetTop - 100,
+    behavior: "smooth",
+  });
+};
+</script>
 
 <style lang="scss" scoped>
 .cover {

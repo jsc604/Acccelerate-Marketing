@@ -1,5 +1,5 @@
 <template>
-  <section class="contact">
+  <section class="contact" id="contact">
     <img
       src="/images/transparent_logo.png"
       alt="accelerate marketing logo"
