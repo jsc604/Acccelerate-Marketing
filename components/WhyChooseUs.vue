@@ -4,7 +4,7 @@
       <div class="space-y-6">
         <h1>Why Choose Us?</h1>
         <p>
-          We don’t just create campaigns; we craft stories that inspire. We pair
+          We don’t just create campaigns, we craft stories that inspire. We pair
           creativity with data-driven insights to deliver measurable growth and
           long-term success. Whether you're launching a new product, managing
           influencers, or seeking to amplify your reach, we have the expertise

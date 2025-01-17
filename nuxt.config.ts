@@ -20,7 +20,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "Accelerate Marketing",
+      title: "Acceleron Marketing, Where Digital Brands Transform And Thrive",
       htmlAttrs: {
         lang: "en",
       },
@@ -33,18 +33,29 @@ export default defineNuxtConfig({
         {
           hid: "description",
           name: "description",
-          content: "",
+          content:
+            "Acceleron Marketing specializes in driving innovation and growth in the ever growing digital landscape",
         },
         {
           "http-equiv": "Content-Security-Policy",
           content: "block-all-mixed-content",
         },
-        { name: "og:title", content: "Accelerate Marketing" },
+        { name: "og:title", content: "Acceleron Marketing" },
         {
           name: "og:description",
-          content: "",
+          content:
+            "Acceleron Marketing specializes in driving innovation and growth in the ever growing digital landscape",
+        },
+        {
+          name: "og:image",
+          content: "/images/acceleron_logo.webp",
+        },
+        {
+          name: "twitter:image",
+          content: "/images/acceleron_logo.webp",
         },
       ],
+      link: [{ rel: "canonical", href: "https://www.acceleronmarketing.com" }],
     },
   },
 });

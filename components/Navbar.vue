@@ -3,12 +3,12 @@
     <nav class="navbar">
       <NuxtLink to="#" class="navbar__brand" @click.prevent="scrollToTop">
         <img
-          src="/images/accelerate_logo.webp"
-          alt="accelerate marketing logo"
+          src="/images/acceleron_logo.webp"
+          alt="Acceleron marketing logo"
           width="48"
           height="49"
         />
-        <h1>Accelerate Marketing</h1>
+        <h1>Acceleron Marketing</h1>
       </NuxtLink>
 
       <ul class="navbar__desktop">

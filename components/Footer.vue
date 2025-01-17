@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <p>© 2025 Accelerate Marketing</p>
+    <p>© 2025 Acceleron Marketing</p>
   </footer>
 </template>
 

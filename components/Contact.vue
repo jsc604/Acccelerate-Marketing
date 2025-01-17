@@ -2,7 +2,7 @@
   <section class="contact" id="contact">
     <img
       src="/images/transparent_logo.png"
-      alt="accelerate marketing logo"
+      alt="Acceleron marketing logo"
       width="615"
       height="627"
     />
@@ -10,14 +10,14 @@
     <h1 data-aos="fade-up">Let's Accelerate Your Growth</h1>
     <button data-aos="fade-up">
       <a
-        href="mailto:hello@acceleratemarketing.io?subject=Book%20a%20Call&body=I'm%20interested%20in%20booking%20a%20call%20to%20accelerate%20my%20growth."
+        href="mailto:hello@acceleronmarketing.io?subject=Book%20a%20Call&body=I'm%20interested%20in%20booking%20a%20call%20to%20accelerate%20my%20growth."
       >
         BOOK A CALL
       </a>
     </button>
     <div data-aos="fade-up">
       <h2>Email</h2>
-      <p>hello@acceleratemarketing.io</p>
+      <p>hello@acceleronmarketing.io</p>
     </div>
   </section>
 </template>

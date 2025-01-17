@@ -3,7 +3,7 @@
     <div class="flex flex-col gap-12 items-start lg:w-1/2">
       <h1>Where Digital Brands Transform And Thrive</h1>
       <p>
-        Accelerate Marketing specializes in driving innovation and growth in the
+        Acceleron Marketing specializes in driving innovation and growth in the
         ever growing digital landscape.
       </p>
       <div class="space-y-6">
@@ -13,8 +13,8 @@
     </div>
     <div class="zoom-container lg:self-baseline w-full lg:w-1/2">
       <img
-        src="/images/accelerate.webp"
-        alt="accelerate marketing cover photo"
+        src="/images/acceleron.webp"
+        alt="acceleron marketing cover photo"
         width="741"
         height="741"
         class="zooming"

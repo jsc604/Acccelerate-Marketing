@@ -1,11 +1,10 @@
-# Accelerate Marketing Website
+# Acceleron Marketing Website
 
-A modern, responsive marketing website built with cutting-edge technologies to showcase Accelerate Marketing's services and capabilities.
+A modern, responsive marketing website built with cutting-edge technologies to showcase Acceleron Marketing's services and capabilities.
 
 ## Features
 - Responsive design
 - Animated components
-- Contact form integration
 - Modern UI/UX
 - Performance optimized
 
